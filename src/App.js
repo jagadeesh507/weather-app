@@ -45,6 +45,7 @@ function App() {
         (weather) ?(<div className="data-card"><div className="data-content">
        <div className="city-name"> City Name:{weather.resolvedAddress}</div>
          <div className="weather-data"><div>ICON  : {weather.days[0].icon}</div>
+         <div>TEMPERATURE  : {weather.days[0].temp}</div>
          <div>DEW  :{weather.days[0].dew}</div>
          <div>CLOUD COVER  : {weather.days[0].cloudcover}</div>
           <div>DESCRIPTION  : {weather.description}</div>
